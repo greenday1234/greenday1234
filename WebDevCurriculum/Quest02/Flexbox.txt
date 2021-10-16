@@ -1,0 +1,93 @@
+플렉스 설정
+display: flex;
+
+축의 방향 정하기(가로, 세로)
+flex-direction: row;
+// flex-direction: column;
+// row-reverse;
+// column-reverse;
+
+줄넘김 처리 설정
+flex-wrap: wrap;
+(기본값) flex-wrap: nowrap;
+// flex-wrap: wrap-reverse;
+
+방향과 줄넘김 처리 설정을 줄여쓰기
+flex-flow: row wrap;
+//flex-direction: row;
++
+//flex-wrap: wrap;
+
+메인축 방향 정렬
+justify-content: flex-start;
+// flex-end;
+// center;
+// space-between; 아이템 사이 간격
+// space-around; 아이템 둘레 간격
+// space-evenly; 아이템 사이와 양 끝 간격 *(IE, Edge 지원x)
+
+수직축 방향 정렬
+align-items: stretch; 수직축 방향으로 늘어남
+// felx-start; 
+// flex-end;
+// center;
+// baseline; 베이스라인 기준 정렬
+
+여러 행 정렬
+*(flex-wrap: wrap;이 설정된 상태)
+flex-wrap: wrap;
+align-content: flex-stretch;
+// flex-start;
+// flex-end;
+// center;
+// space-between;
+// space-around;
+// space-evenly; *(IE, Edge 적용x)
+
+Flex 아이템 크기 설정
+flex-basis: auto; //기본값 (해당 아이템의 width값 사용)
+// 50%;
+// 300px;
+// 10rem;
+// content; *(width값 설정 안된 기본 컨텐츠 크기)
+/*길이 설정*/
+flex-basis: 100px;
+100px보다 큰 아이템은 그대로 유지되고, 100px보다 작은 아이템은 100px로 늘어남
+/*width 설정*/
+width: 100px;
+100px를 넘는 아이템도 100px로 맞춰짐
+
+item 늘리기
+flex-grow: 1; //아이템의 flex-basis를 제외한 "여백부분"을 1의 비율로 늘린다
+Ex) 아이템 3개면 1 : 1 : 1
+// flex-grow: 0; (기본값)
+
+item 줄이기
+flex-basis: 150px; (아이템을 150px로 고정)
+flex-shrink: 1; //기본값 *(0보다 큰 숫자가 들어갈 시 flexible 박스로 변함)
+flex-shrink: 0; // basis의 값으로 고정됨.
+
+축약형 속성
+flex: 1; (basis: 0%시 여백의 비가 아닌 영역 자체 크기의 비율로 설정됨)
+// flex-grow: 1; flex-shrink: 1; flex-basis: 0%;
+flex: 1 1 auto;
+// flex-grow: 1; flex-shrink: 1; flex-basis: auto;
+flex: 1 500px;
+// flex-grow: 1; flex-shrink: 1; flex-basis: 500px;
+
+수직축으로 아이템 정렬
+align-self: auto; (기본값)
+// stretch;
+// flex-start;
+// flex-end;
+// center;
+// baseline;
+
+배치순서
+order
+Ex)
+.item:nth-child(1) {order: 3; } //A
+.item:nth-child(2) {order: 1; } //B
+.item:nth-child(3) {order: 2; } //C
+=B C A
+*(시각적 순서일 뿐 HTML자체의 구조를 바꾸는 것 은 아님)
