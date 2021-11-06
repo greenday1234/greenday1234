@@ -1,0 +1,17 @@
+#title{
+    text-align:center;
+    color:lightgreen;
+    font-family:sans-serif;
+    font-size:60px;
+}
+#bar{
+    border: 2px solid lightgreen;
+    height: 70px;
+    width: 1000px;
+    font-size:26px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
