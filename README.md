@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?color=gradient&customColorList=0,0,0,0&type=Rounded&text=LeeChanHui&fontSize=35)
+![header](https://capsule-render.vercel.app/api?color=gradient&customColorList=0,0,0,0&type=transparent&text=LeeChanHui&fontSize=35)
 
 
 -----------------------------------------------------------
