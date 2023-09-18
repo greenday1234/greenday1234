@@ -12,7 +12,7 @@
 
 ### 💻 LeeChanHui's Log 💻
 <br>
- <a href="https://www.notion.so/ec7ca94d79a64f0d95e6f6ae72e06682">
+ <a href="https://www.notion.so/5a8387cf920a415085619286a622a85b">
       <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
 </a>
 
