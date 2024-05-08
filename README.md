@@ -44,13 +44,3 @@
     <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"> 
 </div>
 
------
-### 🧑‍💻 우테코 프리코스 🧑‍💻
-
-| **Sequence** | **Link** |
-|:-------------|:---------|
-| **1st** | **⚾️[숫자 야구 게임](https://github.com/greenday1234/java-baseball-6)** |
-| **2nd** | **🚘[자동차 경주 게임](https://github.com/greenday1234/java-racingcar-6)** |
-| **3rd** | **🎟️[로또](https://github.com/greenday1234/java-lotto-6)** |
-----
-
